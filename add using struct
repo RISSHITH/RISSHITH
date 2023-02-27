@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct student{
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	
+}s;
+int main()
+{
+	int sum;
+	printf("enter a,b,c,d,e");
+	scanf("%d%d%d%d%d",&s.a,&s.b,&s.c,&s.d,&s.e);
+	sum=(s.a+s.b+s.c+s.d+s.e);
+	printf("sum=%d",sum);
+	return 0;
+	
+}
